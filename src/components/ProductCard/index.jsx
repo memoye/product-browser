@@ -16,7 +16,7 @@ const Card = () => {
                 .then(data => setProd(data))
                 .catch(error => console.log('error', error));
 
-        }, []
+        }, [currentIndex]
     )
 
     return (
